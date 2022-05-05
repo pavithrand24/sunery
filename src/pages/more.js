@@ -25,6 +25,7 @@ import Pressure from '../../assets/images/pressure.svg';
 import Clouds from '../../assets/images/clouds.svg';
 import GetCurrentWeather from '../api/Api';
 import {useNavigation} from '@react-navigation/native';
+import LinearGradient from 'react-native-linear-gradient';
 
 import Strom from '../../assets/images/storm.svg';
 import Cloudy from '../../assets/images/cloud2.svg';
@@ -153,71 +154,95 @@ const More = () => {
             flexDirection="row"
             justifyContent="space-around"
             marginTop="7%">
-            <TouchableOpacity style={styles.group1}>
-              <View style={styles.uv}>
-                <Uv width={35} height={35} />
-              </View>
-              <Text style={styles.nextbut3}>Visibility</Text>
-              <View style={styles.Values}>
-                <Text style={styles.ValuesStyle}>{visibility}</Text>
-                <Text style={styles.UnitStyle}> m</Text>
-              </View>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.group1}>
-              <View>
-                <Winde width={45} height={35} />
-              </View>
-              <Text style={styles.nextbut3}>Wind force</Text>
-              <View style={styles.Values}>
-                <Text style={styles.ValuesStyle}>{wind}</Text>
-                <Text style={styles.UnitStyle}> km/h</Text>
-              </View>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.group1}>
-              <View>
-                <Precipitation width={40} height={35} />
-              </View>
-              <Text style={styles.nextbut3}>Precipitation</Text>
-              <View style={styles.Values}>
-                <Text style={styles.ValuesStyle}>{precipitation}</Text>
-                <Text style={styles.UnitStyle}> mm</Text>
-              </View>
-            </TouchableOpacity>
+            <LinearGradient
+              colors={['#EE4D5F', '#FFCDA5']}
+              style={styles.group1}>
+              <TouchableOpacity>
+                <View style={styles.uv}>
+                  <Uv width={35} height={35} />
+                </View>
+                <Text style={styles.nextbut3}>Visibility</Text>
+                <View style={styles.Values}>
+                  <Text style={styles.ValuesStyle}>{visibility}</Text>
+                  <Text style={styles.UnitStyle}> m</Text>
+                </View>
+              </TouchableOpacity>
+            </LinearGradient>
+            <LinearGradient
+              colors={['#EE4D5F', '#FFCDA5']}
+              style={styles.group1}>
+              <TouchableOpacity>
+                <View>
+                  <Winde width={45} height={35} />
+                </View>
+                <Text style={styles.nextbut3}>Wind force</Text>
+                <View style={styles.Values}>
+                  <Text style={styles.ValuesStyle}>{wind}</Text>
+                  <Text style={styles.UnitStyle}> km/h</Text>
+                </View>
+              </TouchableOpacity>
+            </LinearGradient>
+            <LinearGradient
+              colors={['#EE4D5F', '#FFCDA5']}
+              style={styles.group1}>
+              <TouchableOpacity>
+                <View>
+                  <Precipitation width={40} height={35} />
+                </View>
+                <Text style={styles.nextbut3}>Precipitation</Text>
+                <View style={styles.Values}>
+                  <Text style={styles.ValuesStyle}>{precipitation}</Text>
+                  <Text style={styles.UnitStyle}> mm</Text>
+                </View>
+              </TouchableOpacity>
+            </LinearGradient>
           </View>
           <View
             flexDirection="row"
             justifyContent="space-around"
             marginTop="7%">
-            <TouchableOpacity style={styles.group1}>
-              <View>
-                <Humidity width={30} height={30} />
-              </View>
-              <Text style={styles.nextbut3}>Humidity</Text>
-              <View style={styles.Values}>
-                <Text style={styles.ValuesStyle}>{humidity}</Text>
-                <Text style={styles.UnitStyle}> %</Text>
-              </View>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.group1}>
-              <View>
-                <Pressure width={45} height={35} />
-              </View>
-              <Text style={styles.nextbut3}>Pressure</Text>
-              <View style={styles.Values}>
-                <Text style={styles.ValuesStyle}>{pressure}</Text>
-                <Text style={styles.UnitStyle}> mb</Text>
-              </View>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.group1}>
-              <View>
-                <Clouds width={35} height={35} />
-              </View>
-              <Text style={styles.nextbut3}>Clouds</Text>
-              <View style={styles.Values}>
-                <Text style={styles.ValuesStyle}>{cloud}</Text>
-                <Text style={styles.UnitStyle}> okta</Text>
-              </View>
-            </TouchableOpacity>
+            <LinearGradient
+              colors={['#EE4D5F', '#FFCDA5']}
+              style={styles.group1}>
+              <TouchableOpacity>
+                <View>
+                  <Humidity width={30} height={30} />
+                </View>
+                <Text style={styles.nextbut3}>Humidity</Text>
+                <View style={styles.Values}>
+                  <Text style={styles.ValuesStyle}>{humidity}</Text>
+                  <Text style={styles.UnitStyle}> %</Text>
+                </View>
+              </TouchableOpacity>
+            </LinearGradient>
+            <LinearGradient
+              colors={['#EE4D5F', '#FFCDA5']}
+              style={styles.group1}>
+              <TouchableOpacity>
+                <View>
+                  <Pressure width={45} height={35} />
+                </View>
+                <Text style={styles.nextbut3}>Pressure</Text>
+                <View style={styles.Values}>
+                  <Text style={styles.ValuesStyle}>{pressure}</Text>
+                  <Text style={styles.UnitStyle}> mb</Text>
+                </View>
+              </TouchableOpacity>
+            </LinearGradient>
+            <LinearGradient
+              colors={['#EE4D5F', '#FFCDA5']}
+              style={styles.group1}>
+              <TouchableOpacity>
+                <View>
+                  <Clouds width={35} height={35} />
+                </View>
+                <Text style={styles.nextbut3}>Clouds</Text>
+                <View style={styles.Values}>
+                  <Text style={styles.ValuesStyle}>{cloud}</Text>
+                  <Text style={styles.UnitStyle}> okta</Text>
+                </View>
+              </TouchableOpacity>
+            </LinearGradient>
           </View>
         </View>
       </View>
