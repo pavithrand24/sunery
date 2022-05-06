@@ -26,6 +26,7 @@ import Clouds from '../../assets/images/clouds.svg';
 import GetCurrentWeather from '../api/Api';
 import {useNavigation} from '@react-navigation/native';
 import LinearGradient from 'react-native-linear-gradient';
+import AnimatedLinearGradient, {presetColors} from 'react-native-animated-linear-gradient';
 
 import Strom from '../../assets/images/storm.svg';
 import Cloudy from '../../assets/images/cloud2.svg';
@@ -154,10 +155,8 @@ const More = () => {
             flexDirection="row"
             justifyContent="space-around"
             marginTop="7%">
-            <LinearGradient
-              colors={['#EE4D5F', '#FFCDA5']}
-              style={styles.group1}>
-              <TouchableOpacity>
+              <TouchableOpacity style={styles.group1}>
+              <AnimatedLinearGradient customColors={presetColors.instagram} speed={2500}/>
                 <View style={styles.uv}>
                   <Uv width={35} height={35} />
                 </View>
@@ -167,11 +166,8 @@ const More = () => {
                   <Text style={styles.UnitStyle}> m</Text>
                 </View>
               </TouchableOpacity>
-            </LinearGradient>
-            <LinearGradient
-              colors={['#EE4D5F', '#FFCDA5']}
-              style={styles.group1}>
-              <TouchableOpacity>
+              <TouchableOpacity style={styles.group1}>
+              <AnimatedLinearGradient customColors={presetColors.instagram} speed={2500}/>
                 <View>
                   <Winde width={45} height={35} />
                 </View>
@@ -181,11 +177,8 @@ const More = () => {
                   <Text style={styles.UnitStyle}> km/h</Text>
                 </View>
               </TouchableOpacity>
-            </LinearGradient>
-            <LinearGradient
-              colors={['#EE4D5F', '#FFCDA5']}
-              style={styles.group1}>
-              <TouchableOpacity>
+              <TouchableOpacity style={styles.group1}>
+              <AnimatedLinearGradient customColors={presetColors.instagram} speed={2500}/>
                 <View>
                   <Precipitation width={40} height={35} />
                 </View>
@@ -195,16 +188,13 @@ const More = () => {
                   <Text style={styles.UnitStyle}> mm</Text>
                 </View>
               </TouchableOpacity>
-            </LinearGradient>
           </View>
           <View
             flexDirection="row"
             justifyContent="space-around"
             marginTop="7%">
-            <LinearGradient
-              colors={['#EE4D5F', '#FFCDA5']}
-              style={styles.group1}>
-              <TouchableOpacity>
+                          <TouchableOpacity style={styles.group1}>
+              <AnimatedLinearGradient customColors={presetColors.instagram} speed={2500}/>
                 <View>
                   <Humidity width={30} height={30} />
                 </View>
@@ -214,11 +204,8 @@ const More = () => {
                   <Text style={styles.UnitStyle}> %</Text>
                 </View>
               </TouchableOpacity>
-            </LinearGradient>
-            <LinearGradient
-              colors={['#EE4D5F', '#FFCDA5']}
-              style={styles.group1}>
-              <TouchableOpacity>
+              <TouchableOpacity style={styles.group1}>
+              <AnimatedLinearGradient customColors={presetColors.instagram} speed={2500}/>
                 <View>
                   <Pressure width={45} height={35} />
                 </View>
@@ -228,11 +215,8 @@ const More = () => {
                   <Text style={styles.UnitStyle}> mb</Text>
                 </View>
               </TouchableOpacity>
-            </LinearGradient>
-            <LinearGradient
-              colors={['#EE4D5F', '#FFCDA5']}
-              style={styles.group1}>
-              <TouchableOpacity>
+              <TouchableOpacity style={styles.group1}>
+              <AnimatedLinearGradient customColors={presetColors.instagram} speed={2500}/>
                 <View>
                   <Clouds width={35} height={35} />
                 </View>
@@ -242,7 +226,6 @@ const More = () => {
                   <Text style={styles.UnitStyle}> okta</Text>
                 </View>
               </TouchableOpacity>
-            </LinearGradient>
           </View>
         </View>
       </View>
@@ -307,6 +290,7 @@ const styles = StyleSheet.create({
     width: widthPixel(128),
     backgroundColor: '#2bd6ac',
     borderRadius: 19.5,
+    overflow: 'hidden',
   },
   nextbut3: {
     marginTop: pixelSizeVertical(12),
