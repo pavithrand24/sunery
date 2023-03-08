@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Screen from './src/navigations/screen';
 import { ToastProvider } from 'react-native-toast-notifications';
+import {gestureHandlerRootHOC} from 'react-native-gesture-handler';
 
 
-export default class App extends Component {
+class App extends Component {
     render() {
         return ( 
             <ToastProvider>
@@ -12,3 +13,5 @@ export default class App extends Component {
         );
     }
 }
+
+export default gestureHandlerRootHOC(App);

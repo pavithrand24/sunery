@@ -6,7 +6,7 @@ import {
   Text,
   Button,
   Image,
-  TextInput,
+  TextInput
 } from 'react-native';
 import {Portal} from '@gorhom/portal';
 import {Modalize} from 'react-native-modalize';
@@ -16,7 +16,7 @@ import {
   fontPixel,
   pixelSizeVertical,
   pixelSizeHorizontal,
-} from '../styles/pixel';
+} from '../styles/pixel';  
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import Share from 'react-native-share';
 import Close from '../../assets/images/close1.svg';
@@ -24,7 +24,7 @@ import Close from '../../assets/images/close1.svg';
 import {useToast} from 'react-native-toast-notifications';
 
 const {height} = Dimensions.get('screen');
-const modalHeight = height * 0.42;
+const modalHeight = height * 0.42; //0.42
 
 const BottomSheet = ({modalRef}) => {
   const toast = useToast();

@@ -72,3 +72,6 @@ buck-out/
 # Expo
 .expo/
 web-build/
+
+#api
+src/api/ApiKey.js

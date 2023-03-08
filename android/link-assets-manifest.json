@@ -1,0 +1,61 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Anybody-Regular.ttf",
+      "sha1": "6e39aa8017acf6194dafd7e311d5d8f129191102"
+    },
+    {
+      "path": "assets/fonts/DMSans-Regular.ttf",
+      "sha1": "f1cf9ed15e1ec1db951c401233655dbbd304c732"
+    },
+    {
+      "path": "assets/fonts/Fredoka-VariableFont_wdth,wght.ttf",
+      "sha1": "4279d298fbaab4eb7b88b9122adbc54cd7f4238b"
+    },
+    {
+      "path": "assets/fonts/Inter-Regular.ttf",
+      "sha1": "077f819e60120b1ded3d5c5d8a23b8b53e12ec17"
+    },
+    {
+      "path": "assets/fonts/Lato-Regular.ttf",
+      "sha1": "e923c72eda5e50a87e18ff5c71e9ef4b3b6455a3"
+    },
+    {
+      "path": "assets/fonts/LEMONMILK-Bold.otf",
+      "sha1": "91cef6e742a3816c1f01f41ad039dc401bf6c968"
+    },
+    {
+      "path": "assets/fonts/LEMONMILK-Light.otf",
+      "sha1": "9a56b6f3519f38b20e62973de1634cf10a636023"
+    },
+    {
+      "path": "assets/fonts/LEMONMILK-Medium.otf",
+      "sha1": "13e900f65b1351a8568cdbca55f72ed38ffae2a7"
+    },
+    {
+      "path": "assets/fonts/LEMONMILK-Regular.otf",
+      "sha1": "1f660845f7fe40ee482aa7ccda7d101d20d870fa"
+    },
+    {
+      "path": "assets/fonts/Manrope-VariableFont_wght.ttf",
+      "sha1": "79105b278f576486dda90139fe564b27b5960268"
+    },
+    {
+      "path": "assets/fonts/Milestone.otf",
+      "sha1": "988aaff4cd8f3dc7b669c97e1e96135cfd1bb496"
+    },
+    {
+      "path": "assets/fonts/Questrial-Regular.ttf",
+      "sha1": "6f9756a98f1a5f3a0ce0611b4176f0dfa6fe2d0d"
+    },
+    {
+      "path": "assets/fonts/SFDistantGalaxyOutline.ttf",
+      "sha1": "2ca6c8bd56256879f80050bd67ea8ee1267ab849"
+    },
+    {
+      "path": "assets/fonts/steelfish outline.otf",
+      "sha1": "5aa4c18974bf66fd0d5388fc1af68b576395edec"
+    }
+  ]
+}
