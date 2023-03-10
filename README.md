@@ -8,7 +8,6 @@ A simple weather app built with React Native
 
 # APIs
 + Weather data is retrieved from http://openweathermap.org/
-+ Australia postcode and suburb data is retrieved from http://postcodeapi.com.au/
 + You can see examples of API data in [react-weather/api](https://github.com/pavithrand24/sunery/blob/main/src/api/Api.js)
 
 # Note about API data
