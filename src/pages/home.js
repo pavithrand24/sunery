@@ -320,22 +320,23 @@ const styles = StyleSheet.create({
   },
   temp: {
     marginLeft: pixelSizeHorizontal(119),
-    fontSize: fontPixel(182),
-    fontFamily: 'Milestone',
-
+    fontSize: fontPixel(160),
+    fontFamily: 'Lato-Regular',
     color: '#000000',
   },
   top: {
     marginTop: pixelSizeVertical(75),
   },
   o: {
-    marginLeft: pixelSizeHorizontal(-10),
-    fontSize: fontPixel(63),
-    fontFamily: 'Milestone',
+    marginLeft: pixelSizeHorizontal(-20),
+    fontSize: fontPixel(63),//63
+    fontFamily: 'Lato-Regular',
     color: '#000000',
+    display: 'none',
   },
   cel: {
-    marginTop: pixelSizeVertical(15),
+    marginLeft: pixelSizeHorizontal(-8),
+    marginTop: pixelSizeVertical(25),
     fontFamily: 'LEMONMILK-Bold',
     fontSize: fontPixel(35),
     color: '#000000',
@@ -386,8 +387,8 @@ const styles = StyleSheet.create({
     marginTop: pixelSizeVertical(9),
   },
   refreshico: {
-    marginLeft: pixelSizeHorizontal(10),
-    marginTop: pixelSizeVertical(11),
+    marginLeft: pixelSizeHorizontal(12),
+    marginTop: pixelSizeVertical(12),
   },
   hometext: {
     opacity: 0.0, //change this

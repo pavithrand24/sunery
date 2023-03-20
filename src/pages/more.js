@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
   },
   temp: {
     marginLeft: pixelSizeHorizontal(5),
-    fontFamily: 'Milestone',
+    fontFamily: 'Lato-Regular',
     fontSize: fontPixel(65),
     color: '#000000',
   },
@@ -274,12 +274,13 @@ const styles = StyleSheet.create({
   },
   o: {
     marginLeft: pixelSizeHorizontal(-11),
-    fontFamily: 'Milestone',
-    fontSize: fontPixel(71.5),
+    fontFamily: 'Lato-Regular',
+    fontSize: fontPixel(50),
     color: '#000000',
+    display: 'none',
   },
   cel: {
-    marginLeft: pixelSizeHorizontal(-8),
+    //marginLeft: pixelSizeHorizontal(2),
     marginTop: pixelSizeVertical(6),
     fontFamily: 'LEMONMILK-Bold',
     fontSize: fontPixel(19.5),
@@ -311,8 +312,8 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end',
     marginTop: pixelSizeVertical(-71),
     marginRight: pixelSizeHorizontal(20),
-    width: 45,
-    height: 45,
+    width: 45, //45
+    height: 45,  //45
     color: '#11cbf0',
     backgroundColor: '#11cbf0',
     borderRadius: 25,
@@ -323,7 +324,7 @@ const styles = StyleSheet.create({
   },
   refreshico: {
     marginLeft: pixelSizeHorizontal(12),
-    marginTop: pixelSizeVertical(11),
+    marginTop: pixelSizeVertical(12),
   },
   loca: {
     marginTop: pixelSizeVertical(9),

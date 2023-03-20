@@ -1,7 +1,6 @@
 export default async function GetLat() {
   const a = require('../pages/home');
-    const axios = require("axios");
-    const retry = require('retry-axios');
+    const axios = require("axios").default;
     const value = a[0].text;
     //const value = "austin";
 

@@ -5,8 +5,7 @@ var a = await GetLat();
 var lats = a[0];
 var lons = a[1];
 
-  const axios = require("axios");
-  const retry = require('retry-axios');
+  const axios = require("axios").default;
 
   var result = [];
 
